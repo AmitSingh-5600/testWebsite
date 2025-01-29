@@ -1,0 +1,32 @@
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper > p {
+  font-size: 12px;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  background-color: white;
+  color: #969696;
+  display: none;
+}
+
+.input-wrapper > input {
+  width: 100%;
+  height: 35px;
+  border: 2px solid #969696;
+  border-radius: 2px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+.input-wrapper:focus-within > input {
+  outline: none;
+  border: 2px solid #367aff;
+}
+
+.input-wrapper:focus-within > p {
+  color: #367aff;
+  display: inline !important;
+}
