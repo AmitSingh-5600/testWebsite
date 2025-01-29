@@ -11,7 +11,7 @@ export default function Input({ type, legend, placeHolder }) {
     setPlaceHolderValue("");
   }
   function handleBlur() {
-    setPlaceHolderValue("Enter your Mail ID");
+    setPlaceHolderValue(placeHolder);
   }
   return (
     <div className="input-wrapper">
